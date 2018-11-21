@@ -4,7 +4,7 @@ import com.user.user_service.entity.User;
 
 import java.util.List;
 
-public class AllUserResponse extends BaseResponse {
+public class AllUserResponse extends HttpResult {
     private List<User> data;
 
     public List<User> getData() {
